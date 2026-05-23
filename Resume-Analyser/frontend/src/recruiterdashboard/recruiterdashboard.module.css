@@ -1,0 +1,71 @@
+.container {
+  padding: 92px 18px 24px;
+  min-height: 100vh;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 12px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(2, 6, 23, 0.9);
+}
+
+.nav button,
+.form button {
+  border: none;
+  border-radius: 12px;
+  padding: 10px 14px;
+  color: #fff;
+  background: #2563eb;
+}
+
+.form {
+  max-width: 780px;
+  margin: 0 auto 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #1e293b;
+  padding: 16px;
+  border-radius: 14px;
+}
+
+.form input,
+.form textarea {
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: #e2e8f0;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.form textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.jobs {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 14px 0;
+  background: #1e293b;
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.applicant {
+  margin-top: 8px;
+  background: #0f172a;
+  border-radius: 10px;
+  padding: 10px;
+}
