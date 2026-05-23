@@ -4,9 +4,9 @@ import { toast } from "react-toastify";
 export const usercontext =createContext();
 
 function Appcontext({children}){
-    const apiOrigin = window.location.port === "5173"
+    const apiOrigin = import.meta.env.VITE_API_ORIGIN || (window.location.port === "5173"
         ? `${window.location.protocol}//${window.location.hostname}:8080`
-        : `${window.location.protocol}//${window.location.host}`;
+        : `${window.location.protocol}//${window.location.host}`);
     const backendURL=`${apiOrigin}/resumeAnalyser/entry/v1`
     const serviceURL=`${apiOrigin}/resumeAnalyserCore/service/v1`
     const [islogged,setislogged]=useState(false)
