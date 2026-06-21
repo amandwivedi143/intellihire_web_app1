@@ -155,25 +155,6 @@ https://<your-backend-url>/login/oauth2/code/google
 
 > Important: if you only set `MAIL_API_KEY` or `API_KEY`, the resume analysis will still require `GEN_AI_KEY` unless you rely on the fallback.
 
----
 
-## Why this README feels premium
-
-- detailed deployment instructions
-- professional architecture explanation
-- polished screenshot preview
-- consistent environment setup
-- developer-friendly command flow
-
----
-
-## Contact
-
-If you want a next iteration, I can also add:
-- a clean `storybook` UI preview
-- GitHub Actions CI/CD pipeline
-- a standalone frontend-only Vercel deployment guide
-
----
 
 ![Modern Design](frontend/src/assets/mockups/4.png)
